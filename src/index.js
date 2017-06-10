@@ -5,8 +5,11 @@ var myPlayer = videojs('vid1');
 myPlayer.src("http://vjs.zencdn.net/v/oceans.mp4");
 myPlayer.ready(function() {
   myPlayer.play();
+  // myPlayer.muted(true);
+  // myPlayer.requestFullscreen();
 });
 
+console.log('abcd');
 
 
 
