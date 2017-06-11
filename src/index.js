@@ -1,13 +1,34 @@
-import videojs from 'video.js';
+// import videojs from 'video.js';
+// import abLoopPlugin from 'videojs-abloop';
+// import videojsyoutube from 'videojs-youtube';
 
-var myPlayer = videojs('vid1');
+// var myPlayer = videojs('vid1',
+//         { "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}] }
+//
+// );
+//
+// var myPlayer = videojs("vid1",{
+// 	plugins: {
+// 		abLoopPlugin: {
+// 			start:50    	//in seconds - defaults to 0
+// 			,end:55    	//in seconds. Set to  false to loop to end of video. Defaults to false
+// 			,enabled:false			//defaults to false
+// 			,loopIfBeforeStart:false //allow video to play normally before the loop section? defaults to true
+// 			,loopIfAfterEnd:true	// defaults to true
+// 			,pauseAfterLooping: false     	//if true, after looping video will pause. Defaults to false
+// 			,pauseBeforeLooping: false     	//if true, before looping video will pause. Defaults to false
+// 			,createButtons: true		//defaults to true
+// 		}
+// 	}
+// });
 
-myPlayer.src("http://vjs.zencdn.net/v/oceans.mp4");
-myPlayer.ready(function() {
-  myPlayer.play();
-  // myPlayer.muted(true);
-  // myPlayer.requestFullscreen();
-});
+// myPlayer.src("http://vjs.zencdn.net/v/oceans.mp4");
+// myPlayer.src("https://www.youtube.com/watch?v=j5-yKhDd64s");
+// myPlayer.ready(function() {
+//   myPlayer.play();
+//   // myPlayer.muted(true);
+//   // myPlayer.requestFullscreen();
+// });
 
 console.log('abcd');
 

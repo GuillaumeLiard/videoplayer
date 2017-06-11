@@ -9,7 +9,9 @@
   "author": "Guillaume Liard",
   "license": "ISC",
   "dependencies": {
+    "hamsterjs": "^1.1.2",
     "video.js": "^5.19.2",
+    "videojs-abloop": "^0.4.4",
     "videojs-youtube": "^2.4.0"
   },
   "devDependencies": {
