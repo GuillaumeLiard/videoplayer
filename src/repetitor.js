@@ -1,6 +1,6 @@
 class Repetitor {
     constructor(){
-        console.log('constructor');
+        alert('constructor3');
     }
     start(){
         let speed = 0.75;
@@ -35,7 +35,7 @@ class Repetitor {
           console.log('playbackRate : ' + speed);
         });
 
-        video.play();
+        // video.play();
     }
 }
 
