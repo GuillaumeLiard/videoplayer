@@ -1,3 +1,38 @@
+import Repetitor from './repetitor';
+
+console.log('repet');
+let repetitor = new Repetitor();
+
+repetitor.start();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import videojs from 'video.js';
 // import abLoopPlugin from 'videojs-abloop';
 // import videojsyoutube from 'videojs-youtube';
