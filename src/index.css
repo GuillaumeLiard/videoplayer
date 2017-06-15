@@ -1,0 +1,20 @@
+.phrase{
+    cursor: pointer;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color: rgba(0,0,255,0.3);
+    font-size:1em;
+    height: 40px;
+}
+
+.phrase_active{
+    font-size:2em;
+    font-weight: bold;
+    background-color: rgba(0,0,255,0.9);
+}
+
+#speed{
+    width:60px;
+    height:60px;
+    background-color: green;
+}
