@@ -11,7 +11,7 @@ class Repetitor {
         this.listen();
     }
     render(){
-        this.renderPhrases();        
+        this.renderPhrases();
     }
     listen(){
         this.listenToPhrases();
@@ -21,7 +21,7 @@ class Repetitor {
         this.phrases.forEach((value, key) => {
             e += '<div class="phrase" data-id="' + key + '"> ' + value.text + '</div>';
         });
-        $('body').append(e);
+        $('.phrases').append(e);
     }
     listenToPhrases(){
         $('.phrase').on("click",(a) => {

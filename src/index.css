@@ -1,10 +1,15 @@
+.phrases{
+    /*display: flex;
+    flex-direction: row;*/
+}
 .phrase{
     cursor: pointer;
     margin-top:20px;
     margin-bottom:20px;
     background-color: rgba(0,0,255,0.3);
     font-size:1em;
-    height: 40px;
+    min-height: 40px;
+    flex: 0 1 500px;
 }
 
 .phrase_active{
@@ -17,4 +22,14 @@
     width:60px;
     height:60px;
     background-color: green;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left, .right{
+    width: 500px;
 }
