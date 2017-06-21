@@ -27,8 +27,13 @@
         },
         {
             "text":"I'm doing this for me, so fuck the world",
-            "start":35,
-            "end":37
+            "start":35.15,
+            "end":37.2
+        },
+        {
+            "text":"I'm doing this for me",
+            "start":35.15,
+            "end":36.2
         },
         {
             "text":"Feed it beans, it's gassed up, if it thinks it's stopping me",
@@ -51,19 +56,39 @@
             "end":43
         },
         {
+            "text":"without a doubt undoubtedly",
+            "start":41.5,
+            "end":43
+        },
+        {
             "text":"And all those who look down on me I'm tearing down your balcony",
-            "start":43,
+            "start":43.3,
             "end":46
+        },
+        {
+            "text":"And all those",
+            "start":43.3,
+            "end":43.6
         },
         {
             "text":"No ifs, ands or buts, don't try to ask him why or how can he",
             "start":46,
-            "end":48.5
+            "end":48.9
+        },
+        {
+            "text":"No ifs, ands or buts",
+            "start":46,
+            "end":46.9
+        },
+        {
+            "text":"don't try to ask him why or how can he",
+            "start":46.95,
+            "end":48.6
         },
         {
             "text":"From \"Infinite\" down to the last \"Relapse\" album",
             "start":48.5,
-            "end":51
+            "end":51.5
         },
         {
             "text":"He's still shitting, whether he's on salary paid hourly",
